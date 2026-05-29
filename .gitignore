@@ -1,0 +1,41 @@
+# Excluded from repository
+system_paper/
+planning_markdowns/
+huggingface_model_card/
+archive/
+
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.egg-info/
+dist/
+build/
+.eggs/
+
+# Model checkpoints (large binary files)
+fine_tuned_models/
+*.bin
+*.safetensors
+*.pt
+*.pth
+
+# Data artifacts
+*.npy
+*.zip
+
+# Environment
+.env
+.venv/
+venv/
+env/
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# OS
+Thumbs.db
+.DS_Store
